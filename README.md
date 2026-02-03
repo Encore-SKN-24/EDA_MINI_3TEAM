@@ -1,16 +1,16 @@
-# 🍷 [팀명 입력]: 술과 수명, 그 상관관계의 진실을 찾아서
-> **"술을 많이 마시면 정말 수명이 짧아질까?"** 라는 호기심에서 시작된 WHO & World Bank 글로벌 보건 데이터 EDA 프로젝트
+# 🎹 [그럴 수 ~ 명있지]: 술과 기대수명의 착시에서 출발해, 오래 사는 진짜 이유를 찾다.
+> **"술을 많이 마시면 정말 수명이 짧아질까?"** 라는 호기심에서 시작된 WHO 데이터 EDA 프로젝트
 
 ---
 
 ## 1. 👥 팀 소개
-| 성함 | GitHub / Blog |
+| 성함 | GitHub |
 | :---: | :---: |
-| **[이름1]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/) |
-| **[이름2]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/) |
-| **[이름3]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/) |
-| **[이름4]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/) |
-| **[이름5]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/) |
+| **[권민제]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/min3802) |
+| **[문성준]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/dal-sj) |
+| **[전윤우]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/Yunu-Jeon) |
+| **[정준하]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/junhaj27-jpg) |
+| **[최하진]** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/hun668486) |
 
 ---
 
