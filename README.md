@@ -31,9 +31,15 @@ GDP가 높은 국가일수록 알코올 소비량이 많으면서도 기대수�
 **사람들이 더 오래 사는 데 영향을 주는 핵심 요인(Key Factors)이 무엇인지**를 탐색하는 것을 목표로 합니다.
 
 
-### 📚 데이터 출처
-* [WHO Global Health Observatory (GHO)](https://www.who.int/data/gho)
-* [World Bank Open Data](https://data.worldbank.org/)
+### 📚 데이터 출처 (Data Sources)
+
+| 분석 지표 | 제공 기관 | 내용 | 데이터 소스 (URL) |
+| :--- | :---: | :--- | :--- |
+| **메인 데이터셋** | Kaggle | Raw data | https://www.kaggle.com/datasets/<br>kumarajarshi/life-expectancy-who |
+| **기대 수명** | WHO | 종속 변수 (Target) | https://www.who.int/data/gho/data/<br>indicators/indicator-details/GHO/<br>life-expectancy-at-birth-(years) |
+| **교육 연한** | UNDP | 교육 수준 (Schooling) | https://hdr.undp.org/data-center/<br>documentation-and-downloads |
+| **GDP (1인당)** | World Bank | 국가 경제 지표 | https://data.worldbank.org/indicator/<br>NY.GDP.PCAP.CD?most_recent_<br>year_desc=true |
+| **알코올 소비량** | WHO | 성인 1인당 소비량 | https://www.who.int/data/gho/data/<br>indicators/indicator-details/GHO/<br>alcohol-recorded-per-capita-(15-) |
 
 ---
 
