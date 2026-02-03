@@ -52,6 +52,46 @@ GDP가 높은 국가일수록 알코올 소비량이 많으면서도 기대수�
 2. **공간적 보간**: 전후 데이터가 없는 경우, 해당 국가가 속한 **지역(Region)의 평균값**을 활용하여 지역적 특성을 반영했습니다.
 3. **데이터 정화**: 위 과정을 거친 후에도 한 국가 내에서 **컬럼이 4개 이상 비어있는 경우**, 데이터 오염을 방지하기 위해 해당 국가의 레코드를 분석 대상에서 **제외**했습니다.
 
+```mermaid
+graph LR
+    %% 방향을 LR(Left to Right)로 변경하여 가로 공간 확보
+    
+    %% 노드 정의
+    Start([Raw Data])
+    Step1{Step 1. 데이터 정화}
+    Drop[[DROP: 분석 제외]]
+    Step2[Step 2. 시간적 보간]
+    Step3[Step 3. 공간적 보간]
+    End[(Final Dataset)]
+
+    %% 연결 및 라벨 (긴 라벨에 <br/> 적용)
+    Start --> Step1
+    
+    subgraph P1 [Phase 1: Quality Control]
+        %% 텍스트가 길어 겹치는 부분 줄바꿈
+        Step1 -- "결측치 >= 4개<br/>(오염 데이터)" --> Drop
+    end
+
+    subgraph P2 [Phase 2: Data Imputation]
+        Step1 -- "정상 (Pass)" --> Step2
+        %% 텍스트 줄바꿈
+        Step2 -- "전후 연도<br/>평균값 활용" --> Step3
+    end
+
+    %% 텍스트 줄바꿈
+    Step3 -- "소속 Region<br/>평균값 활용" --> End
+
+    %% 스타일링 (이전과 동일)
+    style Start fill:#f5f5f5,stroke:#9e9e9e,stroke-width:2px
+    style Step1 fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    style Drop fill:#ffebee,stroke:#ef5350,stroke-width:2px,color:#c62828
+    style Step2 fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+    style Step3 fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+    style End fill:#e8f5e9,stroke:#4caf50,stroke-width:3px
+    
+    style P1 fill:#fafafa,stroke:#eeeeee,stroke-dasharray: 5 5
+    style P2 fill:#fafafa,stroke:#eeeeee,stroke-dasharray: 5 5
+```
 ---
 
 ## 5. 📊 수행 결과
