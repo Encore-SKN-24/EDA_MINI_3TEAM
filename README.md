@@ -1,4 +1,4 @@
-# 🎹 [그럴 수 ~ 명있지]: 술과 기대수명의 착시에서 출발해, 오래 사는 진짜 이유를 찾다.
+<img width="1050" height="998" alt="image" src="https://github.com/user-attachments/assets/53a481eb-441d-4fbf-a82a-e68ab0193885" /><img width="1050" height="998" alt="image" src="https://github.com/user-attachments/assets/826a442f-a0f7-4f3a-873c-9959abf20d70" /># 🎹 [그럴 수 ~ 명있지]: 술과 기대수명의 착시에서 출발해, 오래 사는 진짜 이유를 찾다.
 > **"술을 많이 마시면 정말 수명이 짧아질까?"** 라는 호기심에서 시작된 WHO 데이터 EDA 프로젝트
 
 ---
@@ -11,7 +11,7 @@
 | **문성준** | [![GitHub](https://img.shields.io/badge/dal--sj-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/dal-sj) |
 | **전윤우** | [![GitHub](https://img.shields.io/badge/Yunu--Jeon-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Yunu-Jeon) |
 | **정준하** | [![GitHub](https://img.shields.io/badge/junhaj27--jpg-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/junhaj27-jpg) |
-| **최하진** | [![GitHub](https://img.shields.io/badge/hun668486-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hun668486) |
+| **최하진** | [![GitHub](https://img.shields.io/badge/hun668486-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hun6684) |
 
 ---
 
@@ -105,7 +105,8 @@ graph LR
 ## 5. 📊 수행 결과
 
 ### 🧪 1. 상관관계 분석 (Heatmap)
-<img width="1461" height="1278" alt="heatmap" src="https://github.com/user-attachments/assets/1a236707-63ea-4f19-80a5-52589091f2c7" />
+<img width="1050" height="998" alt="image" src="https://github.com/user-attachments/assets/a77af736-18b4-4c70-a110-d4252e0f4d3c" />
+
 
 * **핵심 인사이트**: 히트맵 분석 결과, 예상과 달리 **알코올 소비량은 기대수명과 유의미하게 높은 상관관계를 보이지 않았습니다.** 이는 술 소비량 자체가 수명을 결정짓는 단일 요인이 아님을 입증합니다.
 
@@ -151,10 +152,10 @@ PCA 종합 지표를 독립 변수로 활용하여 기대수명에 미치는 영
 ---
 
 ## 6. 💬 한 줄 회고
-* **[권민제]**: ""
-* **[문성준]**: ""
-* **[전윤우]**: ""
+* **[권민제]**: "데이터 정제 및 분석을 통해 유의미한 지표를 발굴하고자 노력했으나, 높은 결측률로 인해 데이터의 완전한 신뢰성을 확보하는 데는 현실적인 어려움이 있었습니다. 향후에는 더 정밀한 외부 지표를 결합해서 좀 더 새로운 결과를 알아보고 싶습니다."
+* **[문성준]**: "eda를 진행할때 pca를 통해 요인별 대표 점수를 도출했었다. 그러나 이후 계산에서 실제로는 요인을 대표할만한 설득력을 갖지 못한다는것을 발견했다. 이번엔 요인의 요소(컬럼)를 몇개 제거하거나 수정하여 이를 보완했지만, 다음에는 분석을 먼저 진행한 후에 요인을 나누는게 오히려 논리적으로 맞는 순서라는 생각을 하였다."
+* **[전윤우]**: "데이터를 전처리할 때 해당 데이터가 이상치와 결측치가 많아 처리하는 데 있어 기준을 세우는 것이 쉽지 않았으나, 고민의 과정을 거쳐 최적의 방법으로 처리하였다는 점은 잘한 포인트였습니다. 그러나, 사용한 데이터로 적용할 수 있고 인사이트를 도출할 수 있는 시각화와 통계분석을 하는 것이 쉽지 않았고 이런 부분에서 생각했던 것만큼의 결과를 내지 못해 여러모로 아쉬웠습니다. 다음에 프로젝트를 할 때는 좀 더 다양한 방법의 데이터 분석 방법론을 탐색하여 좋은 퀄리티로 낼 수 있도록 할 것입니다."
 * **[정준하]**: " 이전에는 전처리 자체에 집중했다면, 이번에는 LabelEncoder, boxplot, 상관계수, 히트맵, 시계열 분석을 단계적으로 연결하며 데이터 해석 흐름을 직접 구성해 보았다.
 Region별 박스플롯과 상관분석은 큰 결론을 주진 않았지만, 의미 없는 분석도 검증 과정의 일부임을 체감하는 계기가 되었다.
 특히 아프리카 기대수명 증가를 GDP가 아닌 백신 접종률 시계열과 연관 지어 해석하면서, 시각화가 가설 생성으로 이어질 수 있음을 배웠다."
-* **[최하진]**: ""
+* **[최하진]**: "알코올 소비량과 기대수명의 상관관계를 가설로 설정했지만, 실제 분석과정에서 GDP 등 단순한 연관성을 찾기 어렵다는 한계를 경험했다. 이 과정에서 단일 지표만으로 결과를 해석하는 데 한계가 있다는 점을 알게되었고, 데이터를 더 넓은 시야로 바라볼 수 있었다."
