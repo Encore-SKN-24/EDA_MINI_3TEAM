@@ -1,4 +1,4 @@
-<img width="1050" height="998" alt="image" src="https://github.com/user-attachments/assets/53a481eb-441d-4fbf-a82a-e68ab0193885" /><img width="1050" height="998" alt="image" src="https://github.com/user-attachments/assets/826a442f-a0f7-4f3a-873c-9959abf20d70" /># 🎹 [그럴 수 ~ 명있지]: 술과 기대수명의 착시에서 출발해, 오래 사는 진짜 이유를 찾다.
+# 🎹 [그럴 수 ~ 명있지]: 술과 기대수명의 착시에서 출발해, 오래 사는 진짜 이유를 찾다.
 > **"술을 많이 마시면 정말 수명이 짧아질까?"** 라는 호기심에서 시작된 WHO 데이터 EDA 프로젝트
 
 ---
